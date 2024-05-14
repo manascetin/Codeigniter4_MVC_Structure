@@ -1,0 +1,308 @@
+CRITICAL - 2024-05-13 11:24:26 --> ErrorException: Assignments can only happen to writable values
+[Method: GET, Route: product_list]
+in APPPATH\Controllers\Home.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-13 11:24:41 --> ErrorException: Assignments can only happen to writable values
+[Method: GET, Route: product_list]
+in APPPATH\Controllers\Home.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-13 11:24:41 --> ErrorException: Assignments can only happen to writable values
+[Method: GET, Route: product_list]
+in APPPATH\Controllers\Home.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-13 11:25:49 --> ErrorException: Undefined variable $products_array
+[Method: GET, Route: product_list]
+in APPPATH\Views\Products\product_list.php on line 9.
+ 1 APPPATH\Views\Products\product_list.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products_array', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/product_list', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('products/product_list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->product_list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 11:26:37 --> ErrorException: Undefined variable $products_array
+[Method: GET, Route: product_list]
+in APPPATH\Views\Products\product_list.php on line 9.
+ 1 APPPATH\Views\Products\product_list.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products_array', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/product_list', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('products/product_list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->product_list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 11:29:26 --> ErrorException: Undefined variable $products
+[Method: GET, Route: product_list]
+in APPPATH\Views\Products\product_list.php on line 9.
+ 1 APPPATH\Views\Products\product_list.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/product_list', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('products/product_list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->product_list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 11:29:26 --> ErrorException: Undefined variable $products
+[Method: GET, Route: product_list]
+in APPPATH\Views\Products\product_list.php on line 9.
+ 1 APPPATH\Views\Products\product_list.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/product_list', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('products/product_list')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->product_list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 21:51:17 --> ErrorException: Undefined variable $blogs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blog\blogList.php on line 3.
+ 1 APPPATH\Views\blog\blogList.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blog\\blogList.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blog\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(56): view('blog/blogList')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 22:27:32 --> ErrorException: Undefined variable $title
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blog\blogViewCell.php on line 2.
+ 1 APPPATH\Views\blog\blogViewCell.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blog\\blogViewCell.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blog\\blogViewCell.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogViewCell', [], true)
+ 5 APPPATH\Libraries\Blog.php(9): view('blog/blogViewCell', [...])
+ 6 SYSTEMPATH\View\Cell.php(289): App\Libraries\Blog->recentBlogs([...])
+ 7 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Libraries\Blog), 'recentBlogs', [...], 'App\\Libraries\\Blog')
+ 8 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Libraries\\Blog::recentBlogs', [...], 0, 'AppLibrariesBlogrecentBlogsbf562aba8f7c4870d35f9bf9a7e35e84')
+ 9 APPPATH\Views\blog\blogList.php(3): view_cell('\\App\\Libraries\\Blog::recentBlogs', [...])
+10 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blog\\blogList.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+13 APPPATH\Controllers\Home.php(60): view('blog/blogList', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 22:38:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ blog.url }}"
+[Method: GET, Route: home/%7B%7B%20blog.url%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('home/{{ blog.url }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('home/{{ blog.url }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 22:40:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ blog.url }}"
+[Method: GET, Route: home/%7B%7B%20blog.url%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('home/{{ blog.url }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('home/{{ blog.url }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-05-13 23:10:17 --> mysqli_sql_exception: Table 'kurumsal.blog_categoriee' doesn't exist in C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`,...', 0)
+#1 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`,...')
+#2 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`,...')
+#3 C:\wamp64\www\ci_edu\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`,...', Array, false)
+#4 C:\wamp64\www\ci_edu\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\ci_edu\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\ci_edu\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\ci_edu\app\Controllers\Home.php(58): App\Models\BlogModel->blogList('title,content,c...', Array)
+#8 C:\wamp64\www\ci_edu\system\CodeIgniter.php(933): App\Controllers\Home->blogList()
+#9 C:\wamp64\www\ci_edu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\wamp64\www\ci_edu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\ci_edu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\ci_edu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\ci_edu\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-13 23:10:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'kurumsal.blog_categoriee' doesn't exist
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categoriee` ON `blogs`.`category`=`blog_categories`.`pk`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(58): App\Models\BlogModel->blogList('title,content,categoryName,blog_categories.pk', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 23:10:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'kurumsal.blog_categoriee' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categoriee` ON `blogs`.`category`=`blog_categories`.`pk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categoriee` ON `blogs`.`category`=`blog_categories`.`pk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categoriee` ON `blogs`.`category`=`blog_categories`.`pk`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(58): App\Models\BlogModel->blogList('title,content,categoryName,blog_categories.pk', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 23:10:17 --> [Caused by] mysqli_sql_exception: Table 'kurumsal.blog_categoriee' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categoriee` ON `blogs`.`category`=`blog_categories`.`pk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categoriee` ON `blogs`.`category`=`blog_categories`.`pk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categoriee` ON `blogs`.`category`=`blog_categories`.`pk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categoriee` ON `blogs`.`category`=`blog_categories`.`pk`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(58): App\Models\BlogModel->blogList('title,content,categoryName,blog_categories.pk', [])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 23:27:05 --> ErrorException: Undefined variable $blogss
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogss', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-05-13 23:46:50 --> mysqli_sql_exception: Unknown column 'blogs.catsdfsfegory' in 'on clause' in C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`,...', 0)
+#1 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`,...')
+#2 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`,...')
+#3 C:\wamp64\www\ci_edu\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`,...', Array, false)
+#4 C:\wamp64\www\ci_edu\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\ci_edu\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\ci_edu\app\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\ci_edu\app\Controllers\Home.php(58): App\Models\BlogModel->blogList('title,content,c...', Array)
+#8 C:\wamp64\www\ci_edu\system\CodeIgniter.php(933): App\Controllers\Home->blogList()
+#9 C:\wamp64\www\ci_edu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\wamp64\www\ci_edu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\ci_edu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\ci_edu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\ci_edu\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-13 23:46:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'blogs.catsdfsfegory' in 'on clause'
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categories` ON `blogs`.`catsdfsfegory`=`blog_categories`.`pk`', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(58): App\Models\BlogModel->blogList('title,content,categoryName,blog_categories.pk', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 23:46:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'blogs.catsdfsfegory' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categories` ON `blogs`.`catsdfsfegory`=`blog_categories`.`pk`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categories` ON `blogs`.`catsdfsfegory`=`blog_categories`.`pk`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categories` ON `blogs`.`catsdfsfegory`=`blog_categories`.`pk`', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Home.php(58): App\Models\BlogModel->blogList('title,content,categoryName,blog_categories.pk', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 23:46:50 --> [Caused by] mysqli_sql_exception: Unknown column 'blogs.catsdfsfegory' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categories` ON `blogs`.`catsdfsfegory`=`blog_categories`.`pk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categories` ON `blogs`.`catsdfsfegory`=`blog_categories`.`pk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categories` ON `blogs`.`catsdfsfegory`=`blog_categories`.`pk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`, `content`, `categoryName`, `blog_categories`.`pk`
+FROM `blogs`
+JOIN `blog_categories` ON `blogs`.`catsdfsfegory`=`blog_categories`.`pk`', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BlogModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(58): App\Models\BlogModel->blogList('title,content,categoryName,blog_categories.pk', [])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-13 23:48:06 --> ErrorException: Undefined variable $blogs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('blogg/blogList')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

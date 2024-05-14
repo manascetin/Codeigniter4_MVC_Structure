@@ -6,6 +6,10 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+$routes->get('product_list','Home::product_list');
+
+
+
 $routes->setAutoRoute(true); // URL'leri denetleyici ve yöntemlerle otomatik eşleştirmeyi etkinleştirir.
 
 
