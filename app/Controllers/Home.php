@@ -2,21 +2,18 @@
 
 namespace App\Controllers;
 
+use App\Models\BlogModel;
 
 class Home extends BaseController
 {
     public function index()
     {
         helper(filenames:'common');
-        echo view('common/header');
-        echo view('hello_world');
-        echo view('common/footer');
+        return view('hello_world');
     }
     public function about()
     {
-        echo view('common/header');
-        echo view('about');
-        echo view('common/footer');
+        return view('about');
     }
     public function welcome()
     {
@@ -26,15 +23,13 @@ class Home extends BaseController
     }
     public function contact()
     {
-        echo view('common/header');
-        echo view('contact');
-        echo view('common/footer');
+        return view('contact');
     }
 
     public function product_list()
     {
         $data['products'] = [['product_title' => "Iphone 14 Pro Max",
-                            'product_category' => 'Akıllı Telefon',
+                            'product_category' => 'Telefon',
                             'stock' => 18],
                             ['product_title' => "Monster Abra A7",
                             'product_category' => 'Laptop',
@@ -42,24 +37,53 @@ class Home extends BaseController
                             ['product_title' => "Macbook Pro M2",
                                 'product_category' => 'Laptop',
                                 'stock' => 4],
+                            ['product_title' => "Samsung Galaxy S23",
+                                'product_category' => 'Telefon',
+                                'stock' => 1],
                             ['product_title' => "Redmi Note 10 Pro",
-                                'product_category' => 'Akıllı Telefon',
+                                'product_category' => 'Telefon',
                                 'stock' => 23]];
         
-        echo view('common/header');
-        echo view('products/product_list',$data);
-        echo view('common/footer');
+        return view('products/product_list',$data);
     }
     
     public function blogList()
     {
-       
+        $blogModel = new BlogModel();
         $data=['params'=>[
             'where'=>[],
-            'select'=>'title,content,categoryName,']];
-        echo view('common/header');
-        echo view('blogg/blogList',$data);
-        echo view('common/footer');
+            'select'=>'title,content,categoryName,blog_categories.pk'],
+            'blogCats'=>$blogModel->blogCategories('categoryName,sefLink',[])
+        ];
+            
+        return view('blogg/blogList',$data);
     }
-      
+
+    public function blogCategory($catName = 'codeigniter_4')
+    {
+        $blogModel = new \App\Models\BlogModel();
+    
+        $select = 'blogs.title, blogs.content, blog_categories.categoryName, blog_categories.pk';
+        $where = ['blog_categories.sefLink' => $catName];
+        $blogCats=[$blogModel->blogCategories('categoryName,sefLink',[])];
+    
+        // $params'ı tanımla
+        $params = [
+            'select' => $select,
+            'where' => $where,
+            'blogCats' => $blogCats
+        ];
+    
+        // Blogları seçilen kategoriye göre al
+        $data['blogs'] = $blogModel->blogList($select, $where);
+    
+        // $params'ı view'e geçir
+        $data['params'] = $params;
+
+        $data['blogCats'] = $blogModel->blogCategories();
+    
+        return view('blogg/blogList', $data);
+    }
+    
+    
 }

@@ -7,6 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('product_list','Home::product_list');
+$routes->add('category/(:any)','Home::blogCategory/$1');
 
 
 

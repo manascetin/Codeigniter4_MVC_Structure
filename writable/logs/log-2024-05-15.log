@@ -1,0 +1,1361 @@
+CRITICAL - 2024-05-15 10:19:46 --> ParseError: syntax error, unexpected variable "$data"
+[Method: GET, Route: home/blogList]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('home/blogList', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('home/blogList')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('home/blogList')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:20:02 --> ParseError: syntax error, unexpected variable "$data"
+[Method: GET, Route: home/blogList]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('home/blogList', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('home/blogList')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('home/blogList')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:20:03 --> ParseError: syntax error, unexpected variable "$data"
+[Method: GET, Route: home/blogList]
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('home/blogList', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('home/blogList')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('home/blogList')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:35:00 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:35:23 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:42:15 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:46:06 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:46:06 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:46:07 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:46:35 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:48:00 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:48:00 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:48:01 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 10:48:01 --> ErrorException: Undefined variable $params
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 4.
+ 1 APPPATH\Views\blogg\blogList.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $params', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(76): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:51:37 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:52:35 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:52:35 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:52:36 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:53:41 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:53:41 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:53:41 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:54:29 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:55:03 --> ErrorException: Undefined variable $categoryName
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryName', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 11:55:03 --> ErrorException: Undefined variable $categoryName
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryName', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:00:10 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:00:10 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:02:23 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:02:24 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:02:24 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:06:24 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:06:25 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:06:25 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:06:57 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:06:57 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:07:05 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:07:06 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:09:08 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:09:08 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:09:08 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:09:08 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:10:52 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:10:53 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:10:53 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 9.
+ 1 APPPATH\Views\blogg\blogList.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:35:21 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:35:22 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:36:16 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:36:16 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:36:17 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:36:17 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:36:17 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:44:47 --> ErrorException: Undefined array key "sefLink"
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogViewCell.php on line 20.
+ 1 APPPATH\Views\blogg\blogViewCell.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sefLink"', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogViewCell.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogViewCell.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogViewCell', [], true)
+ 5 APPPATH\Libraries\Blog.php(19): view('blogg/blogViewCell', [...])
+ 6 SYSTEMPATH\View\Cell.php(289): App\Libraries\Blog->recentBlogs([...])
+ 7 SYSTEMPATH\View\Cell.php(105): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Libraries\Blog), 'recentBlogs', [...], 'App\\Libraries\\Blog')
+ 8 SYSTEMPATH\Common.php(1187): CodeIgniter\View\Cell->render('\\App\\Libraries\\Blog::recentBlogs', [...], 0, 'AppLibrariesBlogrecentBlogsf4d594209200b8798f122253433c71b2')
+ 9 APPPATH\Views\blogg\blogList.php(7): view_cell('\\App\\Libraries\\Blog::recentBlogs', [...])
+10 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+13 APPPATH\Controllers\Home.php(88): view('blogg/blogList', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:49:03 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:49:04 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:51:49 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: category/codeigniter_4]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(74): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:51:49 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: category/codeigniter_4]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(74): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:53:58 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:54:43 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:54:44 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:54:45 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:54:45 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:55:06 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:55:07 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:55:07 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:55:08 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:55:08 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:57:35 --> ErrorException: Undefined variable $blogCat
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 17.
+ 1 APPPATH\Views\blogg\blogList.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCat', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 12:57:35 --> ErrorException: Undefined variable $blogCat
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 17.
+ 1 APPPATH\Views\blogg\blogList.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCat', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:02:53 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:02:57 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:02:58 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:03:03 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:03:07 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:03:15 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:03:20 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:03:52 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:03:55 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:04:01 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:04:21 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:35:33 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:39:39 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:39:40 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:39:40 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:39:44 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/genel]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('genel')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:39:50 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/genel]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('genel')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:39:52 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:40:00 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: category/genel]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('genel')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:40:25 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:40:29 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:41:24 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:41:35 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:41:55 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:41:56 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:41:58 --> ErrorException: Undefined variable $blogCategories
+[Method: GET, Route: category/genel]
+in APPPATH\Views\blogg\blogList.php on line 17.
+ 1 APPPATH\Views\blogg\blogList.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCategories', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('genel')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:42:23 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:43:56 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:43:57 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:43:57 --> ErrorException: Undefined variable $blogCats
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\blogg\blogList.php on line 16.
+ 1 APPPATH\Views\blogg\blogList.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogCats', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\blogg\\blogList.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 5 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:46:09 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:46:14 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:46:22 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCategory
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCategory', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-15 13:46:22 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCategory
+[Method: GET, Route: home/blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Model->__call('blogCategory', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

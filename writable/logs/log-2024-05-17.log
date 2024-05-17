@@ -1,0 +1,26 @@
+CRITICAL - 2024-05-17 08:57:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "default.php"
+[Method: GET, Route: home/about]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('about', [], true)
+ 4 APPPATH\Controllers\Home.php(19): view('about')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 08:58:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "default.php"
+[Method: GET, Route: home/about]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('about', [], true)
+ 4 APPPATH\Controllers\Home.php(19): view('about')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,3 +1,14 @@
+<?= $this->extend('base') ?>
+<?= $this->section('title') ?>
+    İletişim
+<?= $this->endSection() ?>
+<?= $this->section('head') ?>
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+<?= $this->endSection() ?>
+
+<?= $this->section('content') ?>
 <div class="container">
     <form action="<?php echo base_url ('pageforms/contact_form')?>" method="post" class="form-row">
         <div class="col-6 form-group">
@@ -17,6 +28,7 @@
         </div>
     </form>
 </div>
+<?= $this->endSection() ?>
 <!-- <form action=" " method="post">
     <div>
         <label for="fullname">Ad Soyad</label>
