@@ -24,3 +24,1277 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
  8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 12:53:05 --> ErrorException: New expressions are not supported in this context
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-17 12:53:09 --> ErrorException: New expressions are not supported in this context
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-17 12:54:15 --> Error: Call to a member function pageList() on null
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 12:57:27 --> Error: Call to a member function pageList() on null
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 12:57:28 --> Error: Call to a member function pageList() on null
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-05-17 12:58:42 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\wamp64\www\ci_edu\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\wamp64\www\ci_edu\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\ci_edu\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\ci_edu\app\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\ci_edu\app\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink')
+#8 C:\wamp64\www\ci_edu\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 C:\wamp64\www\ci_edu\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#10 C:\wamp64\www\ci_edu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\ci_edu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\ci_edu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\ci_edu\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-17 12:58:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 12:58:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 12:58:42 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink')
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-05-17 13:01:36 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\wamp64\www\ci_edu\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\wamp64\www\ci_edu\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\ci_edu\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\ci_edu\app\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\ci_edu\app\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink', Array)
+#8 C:\wamp64\www\ci_edu\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 C:\wamp64\www\ci_edu\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#10 C:\wamp64\www\ci_edu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\ci_edu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\ci_edu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\ci_edu\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-17 13:01:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink', [])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:01:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink', [])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:01:36 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink', [])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-05-17 13:01:36 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\wamp64\www\ci_edu\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`\n...', 0)
+#1 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`\n...')
+#2 C:\wamp64\www\ci_edu\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`\n...')
+#3 C:\wamp64\www\ci_edu\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#4 C:\wamp64\www\ci_edu\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\ci_edu\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\ci_edu\app\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\ci_edu\app\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink', Array)
+#8 C:\wamp64\www\ci_edu\system\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 C:\wamp64\www\ci_edu\system\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+#10 C:\wamp64\www\ci_edu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\ci_edu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\wamp64\www\ci_edu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\wamp64\www\ci_edu\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-05-17 13:01:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink', [])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:01:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink', [])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 9 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:01:36 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `title`
+FROM `pages`
+WHERE `seflink` IS NULL
+ORDER BY `sort` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PageModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\BaseController.php(62): App\Models\PageModel->pageList('title', 'seflink', [])
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+10 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:02:40 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 12.
+ 1 APPPATH\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\wamp64\\www\\ci_edu\\app\\Controllers\\Home.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:04:12 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(59): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:04:13 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(59): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:08:19 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/genel]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('genel')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:08:23 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:08:25 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/asp_net]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('asp_net')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:08:36 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/about]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('about', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('about')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:09:40 --> ErrorException: Undefined array key "stock"
+[Method: GET, Route: home/product_list]
+in APPPATH\Views\Products\product_list.php on line 24.
+ 1 APPPATH\Views\Products\product_list.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stock"', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\Products\\product_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('products/product_list', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('products/product_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->product_list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:11:47 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/asp_net]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('asp_net')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:11:50 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:12:57 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/genel]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('genel')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:13:20 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/codeigniter_4]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(90): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('codeigniter_4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:14:20 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/genel]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(91): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('genel')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:14:22 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/asp_net]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(91): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('asp_net')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:15:02 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: category/genel]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(91): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogCategory('genel')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:35:21 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:35:31 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:35:31 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:36:17 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:36:18 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:36:43 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:37:13 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:37:13 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:40:42 --> ErrorException: Could not check compatibility between App\Controllers\Home::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+[Method: GET, Route: home/blogList]
+in APPPATH\Controllers\Home.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-17 13:40:51 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(62): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:42:22 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:50:32 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 13:50:34 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: home/blogList]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blogg/blogList', [], true)
+ 6 APPPATH\Controllers\Home.php(64): view('blogg/blogList', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:14:47 --> ParseError: syntax error, unexpected string content "where", expecting "]"
+[Method: GET, Route: deneme_1]
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\ci_edu\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:14:48 --> ParseError: syntax error, unexpected string content "where", expecting "]"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\ci_edu\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:15:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/base.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/base.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('templates/base', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hello_world', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('hello_world', [...])
+ 5 APPPATH\Controllers\Home.php(18): App\Controllers\Home->loadView('hello_world')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:15:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/base.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/base.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('templates/base', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hello_world', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('hello_world', [...])
+ 5 APPPATH\Controllers\Home.php(18): App\Controllers\Home->loadView('hello_world')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:15:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/base.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/base.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('templates/base', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hello_world', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('hello_world', [...])
+ 5 APPPATH\Controllers\Home.php(18): App\Controllers\Home->loadView('hello_world')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:15:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/base.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/base.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('templates/base', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hello_world', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('hello_world', [...])
+ 5 APPPATH\Controllers\Home.php(18): App\Controllers\Home->loadView('hello_world')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:15:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/base.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/base.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('templates/base', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hello_world', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('hello_world', [...])
+ 5 APPPATH\Controllers\Home.php(18): App\Controllers\Home->loadView('hello_world')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:15:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/base.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/base.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('templates/base', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hello_world', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('hello_world', [...])
+ 5 APPPATH\Controllers\Home.php(18): App\Controllers\Home->loadView('hello_world')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:15:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/base.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/base.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('templates/base', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hello_world', [], true)
+ 4 APPPATH\Controllers\Home.php(12): view('hello_world', [...])
+ 5 APPPATH\Controllers\Home.php(18): App\Controllers\Home->loadView('hello_world')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:18:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "deneme_1.php"
+[Method: GET, Route: deneme_1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deneme_1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('deneme_1', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('deneme_1', [...])
+ 4 APPPATH\Controllers\Home.php(96): App\Controllers\Home->loadView('deneme_1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:18:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "deneme_1.php"
+[Method: GET, Route: deneme_1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deneme_1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('deneme_1', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('deneme_1', [...])
+ 4 APPPATH\Controllers\Home.php(96): App\Controllers\Home->loadView('deneme_1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:18:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "deneme_1.php"
+[Method: GET, Route: deneme_1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deneme_1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('deneme_1', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('deneme_1', [...])
+ 4 APPPATH\Controllers\Home.php(96): App\Controllers\Home->loadView('deneme_1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:24:23 --> ErrorException: Cannot redeclare App\Controllers\Home::page()
+[Method: GET, Route: deneme_1]
+in APPPATH\Controllers\Home.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-17 22:25:49 --> ErrorException: Cannot redeclare App\Controllers\Home::page()
+[Method: GET, Route: deneme_1]
+in APPPATH\Controllers\Home.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-17 22:26:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "deneme_1.php"
+[Method: GET, Route: deneme_1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deneme_1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('deneme_1', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('deneme_1', [...])
+ 4 APPPATH\Controllers\Home.php(96): App\Controllers\Home->loadView('deneme_1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:26:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "deneme_1.php"
+[Method: GET, Route: deneme_1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('deneme_1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('deneme_1', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('deneme_1', [...])
+ 4 APPPATH\Controllers\Home.php(96): App\Controllers\Home->loadView('deneme_1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:28:13 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(87): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:28:14 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(87): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:28:19 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(87): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:30:26 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(94): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:30:28 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(94): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:30:28 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(94): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:30:37 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(94): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:33:29 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(98): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:33:36 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(98): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:34:49 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(87): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:34:53 --> ErrorException: Undefined variable $navs
+[Method: GET, Route: deneme_1]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navs', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dynamic_page', [], true)
+ 6 APPPATH\Controllers\Home.php(87): view('dynamic_page')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->page('deneme_1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:42:04 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:48:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(42): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:51:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(53): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:51:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(53): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:51:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(53): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:51:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(53): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:51:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(53): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:52:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(53): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:54:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(53): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:54:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "blog/blogList.php"
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/blogList.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('blog/blogList', [], true)
+ 3 APPPATH\Controllers\Home.php(53): view('blog/blogList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 22:56:17 --> BadMethodCallException: Call to undefined method App\Models\BlogModel::blogCat
+[Method: GET, Route: blogList]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Model->__call('blogCat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:04:51 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: /]
+in APPPATH\Views\pages.php on line 3.
+ 1 APPPATH\Views\pages.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\pages.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\pages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('pages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:04:53 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: /]
+in APPPATH\Views\pages.php on line 3.
+ 1 APPPATH\Views\pages.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\pages.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\pages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('pages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:05:51 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: /]
+in APPPATH\Views\pages.php on line 3.
+ 1 APPPATH\Views\pages.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\pages.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\pages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('pages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:05:52 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: /]
+in APPPATH\Views\pages.php on line 3.
+ 1 APPPATH\Views\pages.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\pages.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\pages.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('pages', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:18:25 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: /]
+in APPPATH\Views\base.php on line 36.
+ 1 APPPATH\Views\base.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\ci_edu\\app\\Views\\base.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('base', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages', [], true)
+ 6 APPPATH\Controllers\Home.php(16): view('pages', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:30:16 --> ErrorException: Undefined variable $sefLink
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sefLink', 'C:\\wamp64\\www\\ci_edu\\app\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-17 23:30:26 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\wamp64\www\ci_edu\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
