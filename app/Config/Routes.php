@@ -35,6 +35,15 @@ $routes->post('tagUpdate/(:num)', 'Home::tagUpdate/$1');
 $routes->get('deletedTags', 'Home::deletedTags');
 $routes->get('recoveryTag/(:num)', 'Home::recoveryTag/$1');
 $routes->get('recoveryTag', 'Home::recoveryTag');
+$routes->get('users/create', 'Users::create'); 
+$routes->post('contact_form', 'Pageforms::contact_form', ['as' => 'contact_form']);
+
+
+
+
+
+
+
 
 
 

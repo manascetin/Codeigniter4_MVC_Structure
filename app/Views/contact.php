@@ -9,40 +9,35 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
+
 <div class="container">
-    <form action="<?php echo base_url ('pageforms/contact_form')?>" method="post" class="form-row">
+    <?= view('message_block') ?>
+    <form action="<?php echo base_url ('pageforms/contact_form') ?>" method="post" class="form-row"  enctype="multipart/form-data">
+        <?= csrf_field() ?>
         <div class="col-6 form-group">
-            <label for="fullname">Ad Soyad</label>
-            <input type="text" class="form-control" name="fullname" id="fullname">
+            <label for="fullname">Ad Soyad</label>  
+            <input type="text" class="form-control" name="fullname" id="fullname" required  value="<?= old('fullname') ?>">
+        </div>
+        <div class="col-6 form-group">
+            <label for="email">E-Mail</label>
+            <input type="text" class="form-control" name="email" id="email" required  value="<?= old('email') ?>">
+        </div>
+        <div class="col-6 form-group">
+            <label for="phone">Telefon Numarası</label>
+            <input type="text" class="form-control" name="phone" id="phone"  value="<?= old('phone') ?>">
         </div>
         <div class="col-6 form-group">
             <label for="subject">Konu</label>
-            <input type="text" class="form-control" name="subject" id="subject">
+            <input type="text" class="form-control" name="subject" id="subject"  value="<?= old('subject') ?>">
         </div>
         <div class="col-12 form-group">
             <label for="content">Mesajınız</label>
-            <textarea name="content" id="content" class="form-control" cols="30" rows="10"></textarea>
+            <textarea name="content" id="content" class="form-control" cols="30" rows="10" required ><?= old('content') ?></textarea>
         </div>
         <div class="col-12">
             <button type="submit" class="btn btn-success w-50 float-right">Gönder</button>
         </div>
     </form>
 </div>
+
 <?= $this->endSection() ?>
-<!-- <form action=" " method="post">
-    <div>
-        <label for="fullname">Ad Soyad</label>
-            <input type="text" name="fullname" id="fullname">
-    </div>
-    <div>
-        <label for="subject">Konu</label>
-            <input type="text" name="subject" id="subject">
-    </div>
-    <div>
-        <label for="content">Mesajınız</label>
-            <textarea type="text" name="content" id="content" cols="38" rows="10"></textarea>
-    </div>
-    <div>
-        <button type="submit">Gönder</button>
-    </div>
-</form> -->
