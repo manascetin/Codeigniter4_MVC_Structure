@@ -12,8 +12,14 @@
 
 <div class="container">
     <?= view('message_block') ?>
-    <form action="<?php echo base_url ('pageforms/contact_form') ?>" method="post" class="form-row"  enctype="multipart/form-data">
+    <form action="<?php echo base_url ('pageforms/contact_form') ?>" method="post" class="form-row" enctype="multipart/form-data">
         <?= csrf_field() ?>
+        <!-- Honeypot alanını ekleyin -->
+        <div style="display:none;">
+            <label>Bot olmadığınızı kanıtlamak için bu alanı doldurun</label>
+            <input type="text" name="honeypot" value="">
+        </div>
+        <!-- Diğer form alanları -->
         <div class="col-6 form-group">
             <label for="fullname">Ad Soyad</label>  
             <input type="text" class="form-control" name="fullname" id="fullname" required  value="<?= old('fullname') ?>">
@@ -33,6 +39,14 @@
         <div class="col-12 form-group">
             <label for="content">Mesajınız</label>
             <textarea name="content" id="content" class="form-control" cols="30" rows="10" required ><?= old('content') ?></textarea>
+        </div>
+        <div class="col-12 form-group">
+            <input type="file" name="feed" id="feed" accept="image/jpeg, image/jpg, application/pdf">
+            <label for="feed">Tekli Dosya</label>
+        </div>
+        <div class="col-12 form-group">
+            <input type="file" name="multiFile[]" id="multiFile" multiple>
+            <label for="multiFile">Çoklu Dosya</label>
         </div>
         <div class="col-12">
             <button type="submit" class="btn btn-success w-50 float-right">Gönder</button>

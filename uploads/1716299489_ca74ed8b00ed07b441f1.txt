@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge/data
+
+https://www.kaggle.com/code/diaaessam/semantic-segmentation-for-self-driving-cars

@@ -7,6 +7,16 @@ use App\Models\TagModel;
 
 class Home extends BaseController
 {
+    public $defData;
+
+    public function __construct()
+    {
+        $this->defData = [
+            'navs' => $this->navs, // Varsayılan navigasyon verisi
+            // Diğer varsayılan veriler buraya eklenebilir
+        ];
+    }
+
 
     public function index()
     {
@@ -175,6 +185,10 @@ class Home extends BaseController
         return view('tagList', $data);
     }
 
+    public function imgMan_view()
+    {
+        return view('imgMan', $this->defData);
+    }
 
     
     

@@ -37,8 +37,8 @@ $routes->get('recoveryTag/(:num)', 'Home::recoveryTag/$1');
 $routes->get('recoveryTag', 'Home::recoveryTag');
 $routes->get('users/create', 'Users::create'); 
 $routes->post('contact_form', 'Pageforms::contact_form', ['as' => 'contact_form']);
-
-
+$routes->get('imgMan_view', 'Home::imgMan_view', ['as' => 'imgMan_view']);
+$routes->post('imgMan', 'Pageforms::imgMan', ['as' => 'imgMan']);
 
 
 

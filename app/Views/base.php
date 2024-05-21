@@ -33,11 +33,13 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <?php foreach ($navs as $page) : ?>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url($page['sefLink']) ?>"><?= $page['pageTitle'] ?></a>
-                </li>
-            <?php endforeach; ?>
+            <?php if (!empty($navs)): ?>
+                <?php foreach ($navs as $page): ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url($page['sefLink']) ?>"><?= $page['pageTitle'] ?></a>
+                    </li>
+                <?php endforeach; ?>
+            <?php endif; ?>
             <!-- Yeni "Tags" linki burada ekleniyor -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('tags') ?>">Tags</a>
